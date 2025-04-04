@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juego Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 Juego Snake</h1>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+  <!-- Modal de Game Over -->
+  <div id="gameOverModal" class="modal">
+    <div class="modal-content">
+      <h2>🟥 ¡Has perdido!</h2>
+      <p>¿Quieres volver a jugar?</p>
+      <button id="restartBtn">🔁 Volver a jugar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
